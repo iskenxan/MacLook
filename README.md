@@ -1,5 +1,5 @@
 # MacLook
-###**A library of resources to give your desktop app mac look**
+###**A library of resources to give your  windows desktop app mac app styling**
 <br /><br />
 
 ##**Setup&Usage**
