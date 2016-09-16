@@ -1,8 +1,7 @@
 # MacLook
 ###**A library of resources to give your desktop app mac look**
 <br /><br />
-![alt tag](https://raw.githubusercontent.com/iskenxan/MacLook/master/readme_gifs/whole.gif)
-<br /><br />
+
 ##**Setup&Usage**
 <br/><br/>
 Maclook is a library of XAML resources that can be used to give your Windows Desktop app Mac Look. It's very easy to use. There are three steps to implementing the library to your project:<br /><br />
