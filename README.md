@@ -4,7 +4,7 @@
 
 ##**Setup&Usage**
 <br/><br/>
-Maclook is a library of XAML resources that can be used to give your Windows Desktop app Mac Look. It's very easy to use. There are three steps to implementing the library to your project:<br /><br />
+Maclook is a library of XAML resources that can be used to give your Windows Desktop app Mac desktop app look. It's very easy to use. There are three steps to implementing the library to your project:<br /><br />
 1. **Add the reference to the MacLook.dll library to your project.**<br/ ><br/ >
 2. **Clear your MainWindow.xaml content and copy paste the following code:**<br /><br/ >
      ```
