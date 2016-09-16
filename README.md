@@ -73,3 +73,7 @@ When using Tab Control make sure to set the following property to true on the fi
  ![alt tag](https://raw.githubusercontent.com/iskenxan/MacLook/master/readme_gifs/textbox.gif)<br /><br />
 - **ComboBox**<br />
  ![alt tag](https://raw.githubusercontent.com/iskenxan/MacLook/master/readme_gifs/combo.gif)<br /><br />
+
+##**TroubleShoot&Contribution**
+<br /><br />
+Anybody is more than welcome to contribute to this project.If you have any trouble with the repo, use issue reporter on the right or shoot me an email at iskenxa11@gmail.com.
