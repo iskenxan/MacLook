@@ -76,4 +76,4 @@ When using Tab Control make sure to set the following property to true on the fi
 
 ##**TroubleShoot&Contribution**
 <br /><br />
-Anybody is more than welcome to contribute to this project.If you have any trouble with the repo, use issue reporter on the right or shoot me an email at iskenxa11@gmail.com.
+Anybody is more than welcome to contribute to this project.If you have any trouble with the repo, use issue reporter on the right or shoot me an email at iskenxan11@gmail.com.
