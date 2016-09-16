@@ -1,0 +1,36 @@
+D:\WPF Projects\MacLook\MacLook\obj\Debug\MacLook_MarkupCompile.cache
+D:\WPF Projects\MacLook\MacLook\bin\Debug\MacLook.dll
+D:\WPF Projects\MacLook\MacLook\bin\Debug\MacLook.pdb
+D:\WPF Projects\MacLook\MacLook\obj\Debug\Themes\Generic.baml
+D:\WPF Projects\MacLook\MacLook\obj\Debug\MacLook.g.resources
+D:\WPF Projects\MacLook\MacLook\obj\Debug\MacLook.dll
+D:\WPF Projects\MacLook\MacLook\obj\Debug\MacLook.pdb
+D:\WPF Projects\MacLook\MacLook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF Projects\MacLook\MacLook\obj\Debug\MacLook_MarkupCompile.lref
+D:\WPF Projects\MacLook\MacLook\obj\Debug\Controls\MacWindow.baml
+D:\WPF Projects\MacLook\MacLook\obj\Debug\Resources\Brushes.baml
+D:\WPF Projects\MacLook\MacLook\obj\Debug\Controls\MacButton.baml
+D:\WPF Projects\MacLook\MacLook\obj\Debug\Controls\MacCheckBox.baml
+L:\MacLook\MacLook\bin\Debug\MacLook.dll
+L:\MacLook\MacLook\bin\Debug\MacLook.pdb
+L:\MacLook\MacLook\obj\Debug\Controls\MacTextBox.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacComboBox.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacMenu.baml
+L:\MacLook\MacLook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+L:\MacLook\MacLook\obj\Debug\MacLook_MarkupCompile.cache
+L:\MacLook\MacLook\obj\Debug\MacLook_MarkupCompile.lref
+L:\MacLook\MacLook\obj\Debug\Controls\MacCheckBox.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacProgressBar.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacRadioButton.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacScrollBar.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacSlider.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacStatusBar.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacTabControl.baml
+L:\MacLook\MacLook\obj\Debug\Themes\Generic.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacWindow.baml
+L:\MacLook\MacLook\obj\Debug\Resources\Brushes.baml
+L:\MacLook\MacLook\obj\Debug\Controls\MacButton.baml
+L:\MacLook\MacLook\obj\Debug\MacLook.g.resources
+L:\MacLook\MacLook\obj\Debug\MacLook.dll
+L:\MacLook\MacLook\obj\Debug\MacLook.pdb
+L:\MacLook\MacLook\obj\Debug\MacLook.csprojResolveAssemblyReference.cache

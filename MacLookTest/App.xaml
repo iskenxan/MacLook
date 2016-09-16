@@ -1,0 +1,22 @@
+﻿<Application x:Class="MacLookTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacTextBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacButton.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacCheckBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacComboBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacMenu.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacProgressBar.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacRadioButton.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacScrollBar.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacSlider.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacStatusBar.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MacLook;component/Controls/MacTabControl.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

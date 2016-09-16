@@ -1,0 +1,137 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MacLook.Controls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MacLook;component/Resources/Brushes.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <!--  Window Button style -->
+    <Style TargetType="{x:Type Button}" x:Key="windowButtonStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ButtonBase}">
+                    <Border Width="15" Height="15" Background="{TemplateBinding Background}"
+                            x:Name="Chrome"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Margin="0"
+                            SnapsToDevicePixels="True" CornerRadius="8">
+                        <ContentPresenter 
+                                ContentTemplate="{TemplateBinding ContentTemplate}"
+                                Content="{TemplateBinding Content}"
+                                ContentStringFormat="{TemplateBinding ContentStringFormat}"
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                Margin="{TemplateBinding Padding}"
+                                RecognizesAccessKey="True"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontFamily" Value="Webdings"/>
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="Transparent" />
+        <Setter Property="Margin" Value="2,2,2,2"/>
+    </Style>
+
+
+
+    <!-- Window style -->
+    <Style TargetType="{x:Type local:MacWindow}">
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="ResizeMode" Value="NoResize"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:MacWindow}">
+                    <Border CornerRadius="5,5,0,0" BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}" >
+                        <Grid Background="Transparent"  >
+                            <Grid Background="Transparent" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.ColumnSpan="2"  Background="{StaticResource macWindowBG}" CornerRadius="5,5,0,0" >
+                                    <Grid Background="Transparent" >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0" Margin="0,0,0,10" Orientation="Horizontal" HorizontalAlignment="Right">
+                                            <Button Padding="0" x:Name="closeButton" Style="{StaticResource windowButtonStyle}" Background="Transparent">
+                                                <Grid  Margin="0">
+                                                    <Image x:Name="closeButtonHoverBG"  Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/closebutton-hover.png"/>
+                                                    <Image x:Name="closeButtonBG" Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/closebutton.png"/>
+                                                </Grid>
+                                            </Button>
+                                            <Button Padding="0"  Background="Transparent"  x:Name="minimizeButton" Style="{StaticResource windowButtonStyle}">
+                                                <Grid  Margin="0">
+                                                    <Image x:Name="minimizeButtonHoverBG"  Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/minimizeButton-hover.png"/>
+                                                    <Image x:Name="minimizeButtonBG" Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/minimizeButton.png"/>
+                                                </Grid>
+                                            </Button>
+                                            <Button Padding="0" Background="Transparent"   x:Name="restoreButton" Style="{StaticResource windowButtonStyle}"  >
+                                                <Grid  Margin="0">
+                                                    <Image x:Name="restoreButtonHoverBG"  Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/restoreButton-hover.png"/>
+                                                    <Image x:Name="restoreButtonBG" Stretch="Fill" Source="pack://application:,,,/MacLook;component/Resources/MacWindowButton/restoreButton.png"/>
+                                                </Grid>
+                                            </Button>
+                                            <StackPanel.Triggers>
+                                                <EventTrigger RoutedEvent="MouseEnter">
+                                                    <BeginStoryboard>
+                                                        <Storyboard>
+                                                            <DoubleAnimation To="0" Duration="0:0:0.1" Storyboard.TargetName="closeButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                            <DoubleAnimation To="0" Duration="0:0:0.1" Storyboard.TargetName="minimizeButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                            <DoubleAnimation To="0" Duration="0:0:0.1" Storyboard.TargetName="restoreButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </EventTrigger>
+                                                <EventTrigger RoutedEvent="MouseLeave">
+                                                    <BeginStoryboard>
+                                                        <Storyboard>
+                                                            <DoubleAnimation To="1" Duration="0:0:0.1" Storyboard.TargetName="closeButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                            <DoubleAnimation To="1" Duration="0:0:0.1" Storyboard.TargetName="minimizeButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                            <DoubleAnimation To="1" Duration="0:0:0.1" Storyboard.TargetName="restoreButtonBG" Storyboard.TargetProperty="Opacity"/>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </EventTrigger>
+                                            </StackPanel.Triggers>
+                                        </StackPanel>
+                                        <Rectangle  x:Name="moveRectangle" Fill="Transparent" Panel.ZIndex="1"
+                                            Grid.Column="1"/>
+                                        <TextBlock  Grid.Column="0" Text="{TemplateBinding Title}" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="0"/>
+                                    </Grid>
+                                </Border>
+                                <Grid Background="{TemplateBinding Background}"
+                                           Grid.Row="1" Grid.ColumnSpan="2" >
+                                    <AdornerDecorator>
+                                        <ContentPresenter/>
+                                    </AdornerDecorator>
+                                </Grid>
+                            </Grid>
+                            <!-- Resize grid to be inserted here -->
+                            <Grid  x:Name="resizeGrid" >
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" VerticalAlignment="Top" Height="5" x:Name="top" Margin="5,0,5,0" />
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" x:Name="bottom" Height="5" VerticalAlignment="Bottom" Margin="5,0,5,0" />
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" HorizontalAlignment="Left" Margin="0,5,0,5" Width="5" x:Name="left"/>
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" Margin="0,5,0,5" Width="5" HorizontalAlignment="Right" x:Name="right" />
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="5" Height="5" x:Name="bottomLeft" />
+                                <Rectangle Stroke="{x:Null}" Fill="Transparent" VerticalAlignment="Bottom" Height="5"  Width="5" HorizontalAlignment="Right" x:Name="bottomRight" />
+                                <Rectangle Stroke="{x:Null}"  Fill="Transparent" HorizontalAlignment="Right" Width="5" Height="5" VerticalAlignment="Top" x:Name="topRight"  />
+                                <Rectangle  Stroke="{x:Null}" Fill="Transparent" HorizontalAlignment="Left" Width="6" VerticalAlignment="Top" Height="5" x:Name="topLeft"  />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Background" Value="White"/>
+    </Style>
+</ResourceDictionary>

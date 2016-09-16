@@ -1,0 +1,31 @@
+D:\WPF Projects\MacLook\MacLookTest\bin\Debug\MacLookTest.exe.config
+D:\WPF Projects\MacLook\MacLookTest\bin\Debug\MacLookTest.exe
+D:\WPF Projects\MacLook\MacLookTest\bin\Debug\MacLookTest.pdb
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.csprojResolveAssemblyReference.cache
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MainWindow.baml
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MainWindow.g.cs
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\App.g.cs
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest_MarkupCompile.cache
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.g.resources
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.Properties.Resources.resources
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.csproj.GenerateResource.Cache
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.exe
+D:\WPF Projects\MacLook\MacLookTest\obj\Debug\MacLookTest.pdb
+D:\WPF Projects\MacLook\MacLookTest\bin\Debug\MacLook.dll
+D:\WPF Projects\MacLook\MacLookTest\bin\Debug\MacLook.pdb
+L:\MacLook\MacLookTest\bin\Debug\MacLookTest.exe.config
+L:\MacLook\MacLookTest\bin\Debug\MacLookTest.exe
+L:\MacLook\MacLookTest\bin\Debug\MacLookTest.pdb
+L:\MacLook\MacLookTest\bin\Debug\MacLook.dll
+L:\MacLook\MacLookTest\bin\Debug\MacLook.pdb
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.csprojResolveAssemblyReference.cache
+L:\MacLook\MacLookTest\obj\Debug\MainWindow.baml
+L:\MacLook\MacLookTest\obj\Debug\MainWindow.g.cs
+L:\MacLook\MacLookTest\obj\Debug\App.g.cs
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest_MarkupCompile.cache
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.g.resources
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.Properties.Resources.resources
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.csproj.GenerateResource.Cache
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.exe
+L:\MacLook\MacLookTest\obj\Debug\MacLookTest.pdb
+L:\MacLook\MacLookTest\obj\Debug\App.baml
